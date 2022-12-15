@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(10, 156, 125);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 80px 355px 140px;
+}
+
+.bicycle-price {
+  background-position-y: 180px;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url(./IMG/bicycle.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  width: 516px;
+  height: 420px;
+}
+
+.information {
+  margin-left: 60px;
+}
+
+.header {
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Roboto", "san-serif";
+  font-weight: 700;
+  margin-right: 230px;
+}
+
+.account-img {
+  margin-right: 100px;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 50%;
+  border-color: rgb(190, 190, 190);
+}
+
+.header-text {
+  font-family: "Roboto", "san-serif";
+  font-size: smaller;
+  font-weight: 400;
+  margin: 0;
+  font-weight: 500;
+  opacity: 60%;
+  margin-bottom: 30px;
+}
+
+.price-information {
+  margin-bottom: 200px;
+}
+
+.prices {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lists {
+  font-family: "Roboto", "san-serif";
+  font-size: smaller;
+  font-weight: 500;
+  opacity: 60%;
+  display: inline-block;
+}
+
+.list {
+  font-family: "Roboto", "san-serif";
+  font-size: smaller;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.price-two_title {
+  margin-right: 156px;
+}
+
+.lists .price-three_title {
+  font-family: "Roboto", "san-serif";
+  font-size: medium;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-right: 311px;
+}
